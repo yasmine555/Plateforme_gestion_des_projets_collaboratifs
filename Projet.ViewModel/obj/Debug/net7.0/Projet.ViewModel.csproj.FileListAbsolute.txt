@@ -1,0 +1,23 @@
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.deps.json
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.csproj.AssemblyReference.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.AssemblyInfoInputs.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.AssemblyInfo.cs
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.csproj.CoreCompileInputs.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\refint\Projet.ViewModel.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.ViewModel\obj\Debug\net7.0\ref\Projet.ViewModel.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.deps.json
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.AssemblyInfoInputs.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.AssemblyInfo.cs
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\refint\Projet.ViewModel.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\ref\Projet.ViewModel.dll

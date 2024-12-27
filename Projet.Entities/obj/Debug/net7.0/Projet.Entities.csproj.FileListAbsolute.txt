@@ -1,0 +1,23 @@
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\bin\Debug\net7.0\Projet.Entities.deps.json
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\bin\Debug\net7.0\Projet.Entities.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\bin\Debug\net7.0\Projet.Entities.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.csproj.AssemblyReference.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.AssemblyInfoInputs.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.AssemblyInfo.cs
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.csproj.CoreCompileInputs.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\refint\Projet.Entities.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\Projet.Entities.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Entities\obj\Debug\net7.0\ref\Projet.Entities.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\bin\Debug\net7.0\Projet.Entities.deps.json
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\bin\Debug\net7.0\Projet.Entities.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\bin\Debug\net7.0\Projet.Entities.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.AssemblyInfoInputs.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.AssemblyInfo.cs
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.csproj.CoreCompileInputs.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\refint\Projet.Entities.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\ref\Projet.Entities.dll

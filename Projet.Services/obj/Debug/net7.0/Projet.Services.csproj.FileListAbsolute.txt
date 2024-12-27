@@ -1,0 +1,54 @@
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Services.deps.json
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Services.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Services.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.BLL.Contract.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.BLL.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Context.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.DAL.Contracts.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.DAL.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Entities.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.ViewModel.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.BLL.Contract.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.BLL.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Entities.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.ViewModel.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.Context.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.DAL.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\bin\Debug\net7.0\Projet.DAL.Contracts.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.AssemblyReference.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfoInputs.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfo.cs
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.CoreCompileInputs.cache
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.CopyComplete
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\refint\Projet.Services.dll
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\Projet.Services.pdb
+D:\GitProject\ProjetDOTNEtBack26112024\Projet.Services\obj\Debug\net7.0\ref\Projet.Services.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Services.deps.json
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Services.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Services.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.BLL.Contract.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.BLL.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Context.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.DAL.Contracts.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.DAL.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Entities.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.ViewModel.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.BLL.Contract.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.BLL.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Entities.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.ViewModel.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.Context.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.DAL.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\bin\Debug\net7.0\Projet.DAL.Contracts.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.AssemblyReference.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfoInputs.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfo.cs
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.CoreCompileInputs.cache
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.S.CBA77F83.Up2Date
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\refint\Projet.Services.dll
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.pdb
+C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\ref\Projet.Services.dll
