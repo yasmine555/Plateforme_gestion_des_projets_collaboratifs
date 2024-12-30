@@ -21,3 +21,7 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL.Contract\obj\Deb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL.Contract\obj\Debug\net7.0\refint\Projet.BLL.Contract.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL.Contract\obj\Debug\net7.0\Projet.BLL.Contract.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL.Contract\obj\Debug\net7.0\ref\Projet.BLL.Contract.dll
+C:\platforme_gestion_projets\Projet.BLL.Contract\obj\Debug\net7.0\Projet.BLL.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.BLL.Contract\obj\Debug\net7.0\Projet.BLL.Contract.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.BLL.Contract\obj\Debug\net7.0\Projet.BLL.Contract.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.BLL.Contract\obj\Debug\net7.0\Projet.BLL.Contract.csproj.CoreCompileInputs.cache

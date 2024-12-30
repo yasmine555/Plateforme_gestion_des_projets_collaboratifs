@@ -21,3 +21,7 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL.Contracts\obj\De
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL.Contracts\obj\Debug\net7.0\refint\Projet.DAL.Contracts.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL.Contracts\obj\Debug\net7.0\Projet.DAL.Contracts.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL.Contracts\obj\Debug\net7.0\ref\Projet.DAL.Contracts.dll
+C:\platforme_gestion_projets\Projet.DAL.Contracts\obj\Debug\net7.0\Projet.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.DAL.Contracts\obj\Debug\net7.0\Projet.DAL.Contracts.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.DAL.Contracts\obj\Debug\net7.0\Projet.DAL.Contracts.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.DAL.Contracts\obj\Debug\net7.0\Projet.DAL.Contracts.csproj.CoreCompileInputs.cache

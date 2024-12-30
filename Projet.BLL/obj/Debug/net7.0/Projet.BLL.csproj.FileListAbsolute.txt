@@ -44,3 +44,8 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL\obj\Debug\net7.0
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL\obj\Debug\net7.0\refint\Projet.BLL.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL\obj\Debug\net7.0\Projet.BLL.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.BLL\obj\Debug\net7.0\ref\Projet.BLL.dll
+C:\platforme_gestion_projets\Projet.BLL\obj\Debug\net7.0\Projet.BLL.csproj.AssemblyReference.cache
+C:\platforme_gestion_projets\Projet.BLL\obj\Debug\net7.0\Projet.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.BLL\obj\Debug\net7.0\Projet.BLL.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.BLL\obj\Debug\net7.0\Projet.BLL.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.BLL\obj\Debug\net7.0\Projet.BLL.csproj.CoreCompileInputs.cache

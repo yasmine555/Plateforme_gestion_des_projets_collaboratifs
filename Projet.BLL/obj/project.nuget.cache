@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eHudjVcs5dE=",
+  "dgSpecHash": "5MEVop5Iya8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL\\Projet.BLL.csproj",
+  "projectFilePath": "C:\\platforme_gestion_projets\\Projet.BLL\\Projet.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

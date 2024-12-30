@@ -52,3 +52,8 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\n
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\refint\Projet.Services.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\ref\Projet.Services.dll
+C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.AssemblyReference.cache
+C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.CoreCompileInputs.cache

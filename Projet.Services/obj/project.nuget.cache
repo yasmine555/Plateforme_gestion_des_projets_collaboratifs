@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mb/1v4Q4OUM=",
+  "dgSpecHash": "j+nZTcyF8Sw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Services\\Projet.Services.csproj",
+  "projectFilePath": "C:\\platforme_gestion_projets\\Projet.Services\\Projet.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

@@ -10,3 +10,14 @@ D:\GitProject\ProjetDOTNEtBack26112024\Projet.Logs\obj\Debug\net7.0\Projet.Logs.
 D:\GitProject\ProjetDOTNEtBack26112024\Projet.Logs\obj\Debug\net7.0\refint\Projet.Logs.dll
 D:\GitProject\ProjetDOTNEtBack26112024\Projet.Logs\obj\Debug\net7.0\Projet.Logs.pdb
 D:\GitProject\ProjetDOTNEtBack26112024\Projet.Logs\obj\Debug\net7.0\ref\Projet.Logs.dll
+C:\platforme_gestion_projets\Projet.Logs\bin\Debug\net7.0\Projet.Logs.deps.json
+C:\platforme_gestion_projets\Projet.Logs\bin\Debug\net7.0\Projet.Logs.dll
+C:\platforme_gestion_projets\Projet.Logs\bin\Debug\net7.0\Projet.Logs.pdb
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\Projet.Logs.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\Projet.Logs.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\Projet.Logs.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\Projet.Logs.csproj.CoreCompileInputs.cache
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\Projet.Logs.dll
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\refint\Projet.Logs.dll
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\Projet.Logs.pdb
+C:\platforme_gestion_projets\Projet.Logs\obj\Debug\net7.0\ref\Projet.Logs.dll

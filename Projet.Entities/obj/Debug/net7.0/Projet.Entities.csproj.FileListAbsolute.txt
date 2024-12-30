@@ -21,3 +21,7 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\n
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\refint\Projet.Entities.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\Projet.Entities.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Entities\obj\Debug\net7.0\ref\Projet.Entities.dll
+C:\platforme_gestion_projets\Projet.Entities\obj\Debug\net7.0\Projet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.Entities\obj\Debug\net7.0\Projet.Entities.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.Entities\obj\Debug\net7.0\Projet.Entities.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.Entities\obj\Debug\net7.0\Projet.Entities.csproj.CoreCompileInputs.cache

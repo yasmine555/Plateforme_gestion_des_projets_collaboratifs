@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL\\Projet.BLL.csproj": {}
+    "C:\\platforme_gestion_projets\\Projet.BLL\\Projet.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj",
         "projectName": "Projet.BLL.Contract",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL.Contract\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.BLL.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL\\Projet.BLL.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.BLL\\Projet.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL\\Projet.BLL.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.BLL\\Projet.BLL.csproj",
         "projectName": "Projet.BLL",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL\\Projet.BLL.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.BLL\\Projet.BLL.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,14 +98,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj": {
-                "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj"
+              "C:\\platforme_gestion_projets\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.BLL.Contract\\Projet.BLL.Contract.csproj"
               },
-              "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj"
+              "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj"
               },
-              "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL\\Projet.DAL.csproj": {
-                "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL\\Projet.DAL.csproj"
+              "C:\\platforme_gestion_projets\\Projet.DAL\\Projet.DAL.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.DAL\\Projet.DAL.csproj"
               }
             }
           }
@@ -140,18 +140,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Context\\Projet.Context.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.Context\\Projet.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Context\\Projet.Context.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.Context\\Projet.Context.csproj",
         "projectName": "Projet.Context",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Context\\Projet.Context.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.Context\\Projet.Context.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Context\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,8 +173,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj": {
-                "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj"
+              "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj"
               }
             }
           }
@@ -221,18 +221,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj",
         "projectName": "Projet.DAL.Contracts",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -286,18 +286,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL\\Projet.DAL.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.DAL\\Projet.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL\\Projet.DAL.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.DAL\\Projet.DAL.csproj",
         "projectName": "Projet.DAL",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL\\Projet.DAL.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.DAL\\Projet.DAL.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,11 +319,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Context\\Projet.Context.csproj": {
-                "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Context\\Projet.Context.csproj"
+              "C:\\platforme_gestion_projets\\Projet.Context\\Projet.Context.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.Context\\Projet.Context.csproj"
               },
-              "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj"
+              "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.DAL.Contracts\\Projet.DAL.Contracts.csproj"
+              },
+              "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj": {
+                "projectPath": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj"
               }
             }
           }
@@ -358,18 +361,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj",
         "projectName": "Projet.Entities",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -423,7 +426,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     }

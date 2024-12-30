@@ -21,3 +21,14 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\refint\Projet.ViewModel.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.ViewModel\obj\Debug\net7.0\ref\Projet.ViewModel.dll
+C:\platforme_gestion_projets\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.deps.json
+C:\platforme_gestion_projets\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.dll
+C:\platforme_gestion_projets\Projet.ViewModel\bin\Debug\net7.0\Projet.ViewModel.pdb
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.AssemblyInfo.cs
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.csproj.CoreCompileInputs.cache
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.dll
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\refint\Projet.ViewModel.dll
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\Projet.ViewModel.pdb
+C:\platforme_gestion_projets\Projet.ViewModel\obj\Debug\net7.0\ref\Projet.ViewModel.dll

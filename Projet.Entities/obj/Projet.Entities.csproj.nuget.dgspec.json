@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj": {}
+    "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj": {
+    "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj",
+        "projectUniqueName": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj",
         "projectName": "Projet.Entities",
-        "projectPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\Projet.Entities.csproj",
+        "projectPath": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj",
         "packagesPath": "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-ELITEBOOK\\Downloads\\Architecture N Tiers\\Projet.Entities\\obj\\",
+        "outputPath": "C:\\platforme_gestion_projets\\Projet.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
         }
       }
     }
