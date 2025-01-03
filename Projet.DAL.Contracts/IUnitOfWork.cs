@@ -8,6 +8,10 @@ namespace Projet.DAL.Contracts
 {
     public interface IUnitOfWork
     {
-        IRepository GetRepository<T>() where T : class;
+        IRepository<T> GetRepository<T>() where T : class;
+        void Commit();
+
+        IProjectRepository Projects { get; }
+        Task SaveChangesAsync();
     }
 }

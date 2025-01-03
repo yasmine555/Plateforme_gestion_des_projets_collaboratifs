@@ -32,8 +32,20 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Context\obj\Debug\ne
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Context\obj\Debug\net7.0\Projet.Context.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Context\obj\Debug\net7.0\Projet.Context.genruntimeconfig.cache
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Context\obj\Debug\net7.0\ref\Projet.Context.dll
+C:\platforme_gestion_projets\Projet.Context\bin\Debug\net7.0\Projet.Context.deps.json
+C:\platforme_gestion_projets\Projet.Context\bin\Debug\net7.0\Projet.Context.runtimeconfig.json
+C:\platforme_gestion_projets\Projet.Context\bin\Debug\net7.0\Projet.Context.dll
+C:\platforme_gestion_projets\Projet.Context\bin\Debug\net7.0\Projet.Context.pdb
+C:\platforme_gestion_projets\Projet.Context\bin\Debug\net7.0\Projet.Entities.dll
+C:\platforme_gestion_projets\Projet.Context\bin\Debug\net7.0\Projet.Entities.pdb
 C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.csproj.AssemblyReference.cache
 C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.GeneratedMSBuildEditorConfig.editorconfig
 C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.AssemblyInfoInputs.cache
 C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.AssemblyInfo.cs
 C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.csproj.CoreCompileInputs.cache
+C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.C.E84043AC.Up2Date
+C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.dll
+C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\refint\Projet.Context.dll
+C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.pdb
+C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\Projet.Context.genruntimeconfig.cache
+C:\platforme_gestion_projets\Projet.Context\obj\Debug\net7.0\ref\Projet.Context.dll

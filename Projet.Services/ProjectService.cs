@@ -1,47 +1,63 @@
-// Dans Projet.BLL/Services/ProjectService.cs
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Projet.DAL.Contracts;
+using Projet.Entities;
+using Projet.Services.Interfaces;
 
-public class ProjectService : IProjectService
+namespace Projet.Services
 {
-    private readonly IProjectRepository _projectRepository;
-    private readonly IMapper _mapper;
-
-    public ProjectService(IProjectRepository projectRepository, IMapper mapper)
+    public class ProjectService : IProjectService
     {
-        _projectRepository = projectRepository;
-        _mapper = mapper;
-    }
+        private readonly IUnitOfWork _unitOfWork;
 
-    public async Task<ProjectDTO> CreateProjectAsync(ProjectDTO projectDto)
-    {
-        var project = _mapper.Map<Project>(projectDto);
-        var result = await _projectRepository.CreateProjectAsync(project);
-        return _mapper.Map<ProjectDTO>(result);
-    }
+        public ProjectService(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
 
-    public async Task<ProjectDTO> UpdateProjectAsync(int id, ProjectDTO projectDto)
-    {
-        var project = _mapper.Map<Project>(projectDto);
-        project.Id = id;
-        var result = await _projectRepository.UpdateProjectAsync(project);
-        return _mapper.Map<ProjectDTO>(result);
-    }
+        public async Task<Project> GetProjectByIdAsync(int id)
+        {
+            return await _unitOfWork.Projects.GetByIdAsync(id);
+        }
 
-    public async Task DeleteProjectAsync(int id)
-    {
-        await _projectRepository.DeleteProjectAsync(id);
-    }
+        public async Task<IEnumerable<Project>> GetAllProjectsAsync()
+        {
+            return await _unitOfWork.Projects.GetAllAsync();
+        }
 
-    public async Task<ProjectDTO> GetProjectByIdAsync(int id)
-    {
-        var project = await _projectRepository.GetProjectByIdAsync(id);
-        return _mapper.Map<ProjectDTO>(project);
-    }
+        public async Task CreateProjectAsync(Project project)
+        {
+            await _unitOfWork.Projects.AddAsync(project);
+            await _unitOfWork.SaveChangesAsync();
+        }
 
-    public async Task<List<ProjectDTO>> GetAllProjectsAsync()
-    {
-        var projects = await _projectRepository.GetAllProjectsAsync();
-        return _mapper.Map<List<ProjectDTO>>(projects);
+        public async Task UpdateProjectAsync(Project project)
+        {
+            _unitOfWork.Projects.Update(project);
+            await _unitOfWork.SaveChangesAsync();
+        }
+
+        public async Task DeleteProjectAsync(int id)
+        {
+            var project = await GetProjectByIdAsync(id);
+            if (project != null)
+            {
+                _unitOfWork.Projects.Remove(project);
+                await _unitOfWork.SaveChangesAsync();
+            }
+        }
+
+        Task<Project> IProjectService.CreateProjectAsync(Project project)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Project> UpdateProjectAsync(int id, Project project)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Project>> IProjectService.GetAllProjectsAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

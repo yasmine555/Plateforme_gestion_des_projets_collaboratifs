@@ -1,45 +1,57 @@
-using Projet.BLL.Contract;
+using Microsoft.EntityFrameworkCore;
 using Projet.BLL;
+using Projet.BLL.Contract;
 using Projet.Context;
 using Projet.DAL;
 using Projet.DAL.Contracts;
-using Projet.Entities;
-using Projet.Services.Interfaces;
 using Projet.DAL.Repos;
-using Microsoft.EntityFrameworkCore;
+using Projet.Entities;
 using Projet.Services;
+using Projet.DAL.Repos;
+using Projet.Services.Interfaces;
 
+// Configuration du DbContext dans Program.cs
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 var Cnx = builder.Configuration.GetConnectionString("ConnectionString");
+
+// Ajoutez cette ligne pour configurer le DbContext
 builder.Services.AddDbContext<DataContext>(options =>
-                     options.UseSqlServer(Cnx, b => b.MigrationsAssembly("API")));
+    options.UseSqlServer(Cnx));
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<DataContext>();
 
-builder.Services.AddScoped<IUserService,UserService>();
-builder.Services.AddScoped<IGenericBLL<User>, GenericBLL<User>>();
+// Enregistrement des autres services
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
+builder.Services.AddScoped<IGenericBLL<User>, GenericBLL<User>>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IRepository<Project>, ProjectRepo>();
 builder.Services.AddScoped<IRepository<Client>, ClientRepository>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+
+
+
+// Configuration de Swagger
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Projet DOTNET" });
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Projet DOTNET API", Version = "v1" });
 });
+
 var app = builder.Build();
 
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
 
-// Configure the HTTP request pipeline.
 app.UseAuthorization();
 app.MapControllers();
 
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V2");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Projet DOTNET API V1");
 });
 
 app.Run();

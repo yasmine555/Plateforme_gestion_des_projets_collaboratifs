@@ -10,5 +10,8 @@ namespace Projet.Services.Interfaces
     public interface IUserService
     {
         IEnumerable<User> GetUsers();
+        User AddUser(User user);
+        bool DeleteUser(int id);
+        User UpdateUser(User user);
     }
 }

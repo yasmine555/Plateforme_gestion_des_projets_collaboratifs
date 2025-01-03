@@ -4,8 +4,8 @@ namespace Projet.BLL.Contract
 {
     public interface IGenericBLL<T> where T : class, new()
     {
-        void Add(T entity);
-        void Delete(T entity);
+        T Add(T entity);
+        bool Delete(T entity);
 
         T GetById(params object[] id);
 
@@ -13,7 +13,7 @@ namespace Projet.BLL.Contract
 
         void Submit();
 
-        void Update(T entity);
+        T Update(T entity);
 
     }
 }

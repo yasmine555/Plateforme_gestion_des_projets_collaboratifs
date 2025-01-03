@@ -680,13 +680,17 @@
       "Projet.DAL/1.0.0": {
         "dependencies": {
           "Projet.Context": "1.0.0",
-          "Projet.DAL.Contracts": "1.0.0"
+          "Projet.DAL.Contracts": "1.0.0",
+          "Projet.Entities": "1.0.0"
         },
         "runtime": {
           "Projet.DAL.dll": {}
         }
       },
       "Projet.DAL.Contracts/1.0.0": {
+        "dependencies": {
+          "Projet.Entities": "1.0.0"
+        },
         "runtime": {
           "Projet.DAL.Contracts.dll": {}
         }

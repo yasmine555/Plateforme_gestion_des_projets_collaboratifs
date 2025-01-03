@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DTOs\**" />
+    <Compile Remove="Mappings\**" />
+    <EmbeddedResource Remove="DTOs\**" />
+    <EmbeddedResource Remove="Mappings\**" />
+    <None Remove="DTOs\**" />
+    <None Remove="Mappings\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Projet.BLL.Contract\Projet.BLL.Contract.csproj" />
     <ProjectReference Include="..\Projet.DAL.Contracts\Projet.DAL.Contracts.csproj" />
     <ProjectReference Include="..\Projet.DAL\Projet.DAL.csproj" />

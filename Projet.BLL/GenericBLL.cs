@@ -6,26 +6,28 @@ namespace Projet.BLL
 {
     public class GenericBLL<T> : IGenericBLL<T> where T : class, new()
     {
-        IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IRepository<T> _repo;
 
-        IRepository<T> _repo;
         public GenericBLL(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
             _repo = (IRepository<T>)_unitOfWork.GetRepository<T>();
         }
 
-        public void Add(T entity)
+        public T Add(T entity)
         {
             _repo.Add(entity);
+            _unitOfWork.Commit(); // Assurez-vous que les changements sont sauvegardés
+            return entity; // Retourner l'objet ajouté
         }
 
-
-        public void Delete(T entity)
+        public bool Delete(T entity)
         {
             _repo.Delete(entity);
+            _unitOfWork.Commit(); // Sauvegarder les modifications
+            return true; // Indiquer que la suppression a réussi
         }
-
 
         public T GetById(params object[] id)
         {
@@ -37,15 +39,16 @@ namespace Projet.BLL
             return _repo.GetMany(predicate, includeProperties);
         }
 
-        public void Submit()
-        {
-            _repo.Submit();
-        }
-
-        public void Update(T entity)
+        public T Update(T entity)
         {
             _repo.Update(entity);
+            _unitOfWork.Commit(); // Sauvegarder les modifications
+            return entity; // Retourner l'objet mis à jour
         }
 
+        public void Submit()
+        {
+            _unitOfWork.Commit();
+        }
     }
 }

@@ -129,10 +129,7 @@
       },
       "Projet.BLL.Contract/1.0.0": {
         "runtime": {
-          "Projet.BLL.Contract.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Projet.BLL.Contract.dll": {}
         }
       },
       "Projet.Context/1.0.0": {
@@ -141,38 +138,30 @@
           "Projet.Entities": "1.0.0"
         },
         "runtime": {
-          "Projet.Context.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Projet.Context.dll": {}
         }
       },
       "Projet.DAL/1.0.0": {
         "dependencies": {
           "Projet.Context": "1.0.0",
-          "Projet.DAL.Contracts": "1.0.0"
+          "Projet.DAL.Contracts": "1.0.0",
+          "Projet.Entities": "1.0.0"
         },
         "runtime": {
-          "Projet.DAL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Projet.DAL.dll": {}
         }
       },
       "Projet.DAL.Contracts/1.0.0": {
+        "dependencies": {
+          "Projet.Entities": "1.0.0"
+        },
         "runtime": {
-          "Projet.DAL.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Projet.DAL.Contracts.dll": {}
         }
       },
       "Projet.Entities/1.0.0": {
         "runtime": {
-          "Projet.Entities.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Projet.Entities.dll": {}
         }
       }
     }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Projet.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Projet.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Projet.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Projet.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Projet.Entities/Projet.Entities.csproj",
+      "msbuildProject": "../Projet.Entities/Projet.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Projet.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\HP-ELITEBOOK\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj": {
+              "projectPath": "C:\\platforme_gestion_projets\\Projet.Entities\\Projet.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

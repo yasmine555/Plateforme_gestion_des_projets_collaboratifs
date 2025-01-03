@@ -24,14 +24,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projet.Logs", "Projet.Logs\Projet.Logs.csproj", "{23EBABDC-F763-4BBF-9C5A-9192BC1A8016}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projet.BLL", "Projet.BLL\Projet.BLL.csproj", "{0969DC51-6457-4474-97CF-00F72696F339}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2B1AD55-A71C-477B-99DA-B7AD9D6CA2C9} = {E2B1AD55-A71C-477B-99DA-B7AD9D6CA2C9}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projet.BLL.Contract", "Projet.BLL.Contract\Projet.BLL.Contract.csproj", "{84F875F8-DEFA-41D0-977E-B75ABF304846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet.Services", "Projet.Services\Projet.Services.csproj", "{EE8F21DB-79F4-4F6E-AA82-99E8E853F5C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projet.Services", "Projet.Services\Projet.Services.csproj", "{EE8F21DB-79F4-4F6E-AA82-99E8E853F5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet.ViewModel", "Projet.ViewModel\Projet.ViewModel.csproj", "{1F972C2A-D057-494F-91EE-07510BFF95A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projet.ViewModel", "Projet.ViewModel\Projet.ViewModel.csproj", "{1F972C2A-D057-494F-91EE-07510BFF95A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{3AADF299-A36D-459A-86F3-00ADC08C8BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{3AADF299-A36D-459A-86F3-00ADC08C8BC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

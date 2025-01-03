@@ -1,13 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using Projet.Context;
+using Projet.DAL;
+using Projet.DAL.Contracts;
+using Projet.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-public class ProjectRepository : IProjectRepository
+public class ProjectRepo : GenericRepository<Project>
 {
     private readonly ProjectDbContext _context;
 
-    public ProjectRepository(ProjectDbContext context)
+    public ProjectRepo(DataContext context) : base(context)
     {
-        _context = context;
     }
 
     public async Task<Project> CreateProjectAsync(Project project)
@@ -49,4 +53,5 @@ public class ProjectRepository : IProjectRepository
             await _context.SaveChangesAsync();
         }
     }
+
 }
