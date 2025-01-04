@@ -12,9 +12,6 @@ public class ProjectDbContext : DbContext
     public DbSet<ProjectObjective> ProjectObjectives { get; set; }
     public DbSet<Deliverable> Deliverables { get; set; }
 
-    public DbSet<ProjectTask> Tasks { get; set; }
-    public DbSet<Badge> Badges { get; set; }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Project>()

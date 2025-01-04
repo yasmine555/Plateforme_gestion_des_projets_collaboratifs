@@ -14,11 +14,8 @@ namespace Projet.Context
         }
         public virtual DbSet<Project> Project { get; set; }
         public virtual DbSet<User> User { get; set; }
-        public virtual DbSet<Badge> Badge { get; set; }
-        public virtual DbSet<ProjectTask> ProjectTask { get; set; }
 
-
-
+        
 
     }
 }

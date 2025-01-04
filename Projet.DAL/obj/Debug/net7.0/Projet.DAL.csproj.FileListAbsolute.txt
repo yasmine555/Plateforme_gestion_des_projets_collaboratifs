@@ -36,8 +36,22 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL\obj\Debug\net7.0
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL\obj\Debug\net7.0\refint\Projet.DAL.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL\obj\Debug\net7.0\Projet.DAL.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.DAL\obj\Debug\net7.0\ref\Projet.DAL.dll
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.DAL.deps.json
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.DAL.dll
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.DAL.pdb
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.Context.dll
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.DAL.Contracts.dll
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.Entities.dll
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.Context.pdb
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.DAL.Contracts.pdb
+C:\platforme_gestion_projets\Projet.DAL\bin\Debug\net7.0\Projet.Entities.pdb
 C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.csproj.AssemblyReference.cache
 C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.AssemblyInfoInputs.cache
 C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.AssemblyInfo.cs
 C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.csproj.CoreCompileInputs.cache
+C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.csproj.Up2Date
+C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.dll
+C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\refint\Projet.DAL.dll
+C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\Projet.DAL.pdb
+C:\platforme_gestion_projets\Projet.DAL\obj\Debug\net7.0\ref\Projet.DAL.dll
