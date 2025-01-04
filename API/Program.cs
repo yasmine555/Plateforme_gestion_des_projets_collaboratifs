@@ -29,7 +29,11 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IRepository<Project>, ProjectRepo>();
 builder.Services.AddScoped<IRepository<Client>, ClientRepository>();
 builder.Services.AddScoped<IProjectService, ProjectService>();
-
+// Configuration des services
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<IBadgeRepository, BadgeRepository>();
+builder.Services.AddScoped<IProjectManagementService, ProjectManagementService>();
+builder.Services.AddHttpContextAccessor();
 
 
 // Configuration de Swagger

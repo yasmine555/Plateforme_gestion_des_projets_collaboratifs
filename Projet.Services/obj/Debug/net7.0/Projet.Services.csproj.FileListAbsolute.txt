@@ -52,30 +52,8 @@ C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\n
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\refint\Projet.Services.dll
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\Projet.Services.pdb
 C:\Users\HP-ELITEBOOK\Downloads\Architecture N Tiers\Projet.Services\obj\Debug\net7.0\ref\Projet.Services.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Services.deps.json
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Services.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Services.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.BLL.Contract.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.BLL.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Context.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.DAL.Contracts.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.DAL.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Entities.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.ViewModel.dll
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.BLL.Contract.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.BLL.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Entities.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.ViewModel.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.Context.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.DAL.pdb
-C:\platforme_gestion_projets\Projet.Services\bin\Debug\net7.0\Projet.DAL.Contracts.pdb
 C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.AssemblyReference.cache
 C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfoInputs.cache
 C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.AssemblyInfo.cs
 C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.csproj.CoreCompileInputs.cache
-C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.S.CBA77F83.Up2Date
-C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.dll
-C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\refint\Projet.Services.dll
-C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\Projet.Services.pdb
-C:\platforme_gestion_projets\Projet.Services\obj\Debug\net7.0\ref\Projet.Services.dll
