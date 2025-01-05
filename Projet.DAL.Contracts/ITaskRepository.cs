@@ -1,17 +1,17 @@
-﻿using System;
+﻿using Projet.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Projet.DAL.Contracts
 {
     public interface ITaskRepository
     {
-        Task<Task> GetByIdAsync(int id);
-        Task<IEnumerable<Task>> GetTasksByUserIdAsync(int userId);
+        Task<ProjectTask> GetByIdAsync(int id);
+        Task<IEnumerable<ProjectTask>> GetTasksByUserIdAsync(int userId);
         Task<bool> AssignTaskAsync(int taskId, int userId);
         Task<bool> UpdateProgressAsync(int taskId, int progress);
-        Task<IEnumerable<Task>> GetAllTasksAsync();
+        Task<IEnumerable<ProjectTask>> GetAllTasksAsync();
+        Task<List<ProjectTask>> GetTasksForUserAsync(int userId);
+        Task UpdateAsync(ProjectTask task);
     }
 }

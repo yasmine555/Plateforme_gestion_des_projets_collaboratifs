@@ -11,8 +11,11 @@ namespace Projet.Entities
         public required string Status { get; set; }
 
         // Pour les objectifs et livrables
-        public List<ProjectObjective> Objectives { get; set; }
-        public List<Deliverable> Deliverables { get; set; }
+        public List<ProjectObjective> Objectives { get; set; } = new List<ProjectObjective>();
+        public List<Deliverable> Deliverables { get; set; } = new List<Deliverable>();
+
+        // Constructeur sans paramètre pour EF
+        public Project() { }
 
         public Project(string name, string description, string status, List<ProjectObjective> objectives, List<Deliverable> deliverables)
         {
@@ -24,22 +27,7 @@ namespace Projet.Entities
         }
     }
 
-    public class ProjectObjective
-    {
-        public int Id { get; set; }
-        public int ProjectId { get; set; }
-        public string Description { get; set; }
-        public DateTime DueDate { get; set; }
-        public string Status { get; set; }
-    }
+    
 
-    public class Deliverable
-    {
-        public int Id { get; set; }
-        public int ProjectId { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public DateTime DueDate { get; set; }
-        public string Status { get; set; }
-    }
+   
 }

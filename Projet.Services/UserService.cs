@@ -28,14 +28,16 @@ namespace Projet.Services
             return user;
         }
 
-        public bool DeleteUser(int id)
+        public async Task<bool> DeleteUser(int id)
         {
-            var user = _userBLL.GetById(id);
+            var user = await _userBLL.GetById(id);
             if (user == null) return false;
             _userBLL.Delete(user);
-            _userBLL.Submit();
+            await _userBLL.Submit();
             return true;
         }
+
+
 
         public User UpdateUser(User user)
         {

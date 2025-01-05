@@ -1,57 +1,77 @@
 using Microsoft.EntityFrameworkCore;
-using Projet.Context;
-using Projet.DAL;
 using Projet.DAL.Contracts;
 using Projet.Entities;
-using System.Collections.Generic;
+using System.Linq.Expressions;
+using System.Linq;
 using System.Threading.Tasks;
+using Projet.Context;
 
-public class ProjectRepo : GenericRepository<Project>
+namespace Projet.DAL.Repos
 {
-    private readonly ProjectDbContext _context;
-
-    public ProjectRepo(DataContext context) : base(context)
+    public class ProjectRepo : IRepository<Project>
     {
-    }
+        private readonly DataContext _context;
+        private readonly DbSet<Project> _dbSet;
 
-    public async Task<Project> CreateProjectAsync(Project project)
-    {
-        _context.Projects.Add(project);
-        await _context.SaveChangesAsync();
-        return project;
-    }
-
-    public async Task<Project> GetProjectByIdAsync(int id)
-    {
-        return await _context.Projects
-            .Include(p => p.Objectives)
-            .Include(p => p.Deliverables)
-            .FirstOrDefaultAsync(p => p.Id == id);
-    }
-
-    public async Task<List<Project>> GetAllProjectsAsync()
-    {
-        return await _context.Projects
-            .Include(p => p.Objectives)
-            .Include(p => p.Deliverables)
-            .ToListAsync();
-    }
-
-    public async Task<Project> UpdateProjectAsync(Project project)
-    {
-        _context.Entry(project).State = EntityState.Modified;
-        await _context.SaveChangesAsync();
-        return project;
-    }
-
-    public async Task DeleteProjectAsync(int id)
-    {
-        var project = await _context.Projects.FindAsync(id);
-        if (project != null)
+        public ProjectRepo(DataContext context)
         {
-            _context.Projects.Remove(project);
-            await _context.SaveChangesAsync();
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _dbSet = _context.Set<Project>();
+        }
+
+        public async Task<Project?> GetById(object id)
+        {
+            if (id == null)
+                throw new ArgumentNullException(nameof(id));
+
+            return await _dbSet.FindAsync(id); // Utilisation de la méthode asynchrone
+        }
+
+        public IEnumerable<Project> GetMany(Expression<Func<Project, bool>>? predicate = null, params Expression<Func<Project, object>>[] includeProperties)
+        {
+            IQueryable<Project> query = _dbSet;
+
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+
+            foreach (var includeProperty in includeProperties)
+            {
+                query = query.Include(includeProperty);
+            }
+
+            return query.ToList();
+        }
+
+        public void Add(Project entity)
+        {
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Add(entity);
+        }
+
+        public async Task Update(Project entity)
+        {
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Update(entity);
+            await _context.SaveChangesAsync(); // Utilisation de SaveChangesAsync pour une mise à jour asynchrone
+        }
+
+        public void Delete(Project entity)
+        {
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Remove(entity);
+        }
+
+        public async Task SaveAsync()
+        {
+            await _context.SaveChangesAsync(); // Sauvegarde asynchrone
         }
     }
-
 }

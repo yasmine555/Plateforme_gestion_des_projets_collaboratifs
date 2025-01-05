@@ -29,10 +29,11 @@ namespace Projet.BLL
             return true; // Indiquer que la suppression a réussi
         }
 
-        public T GetById(params object[] id)
+        public async Task<T?> GetById(params object[] id)
         {
-            return _repo.GetById(id);
+            return await _repo.GetById(id);
         }
+
 
         public IEnumerable<T> GetMany(Expression<Func<T, bool>>? predicate = null, params Expression<Func<T, object>>[] includeProperties)
         {
@@ -46,9 +47,9 @@ namespace Projet.BLL
             return entity; // Retourner l'objet mis à jour
         }
 
-        public void Submit()
+        public async Task Submit()  // Modifier pour être asynchrone
         {
-            _unitOfWork.Commit();
+            await _unitOfWork.CommitAsync(); // Supposons que CommitAsync existe
         }
     }
 }

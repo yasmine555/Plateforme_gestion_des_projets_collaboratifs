@@ -1,9 +1,10 @@
-﻿using Projet.DAL.Contracts;
+﻿using Microsoft.EntityFrameworkCore;
+using Projet.DAL.Contracts;
+using Projet.Entities;
+using Projet.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Projet.Context;
 using System.Threading.Tasks;
 
 namespace Projet.DAL
@@ -17,14 +18,14 @@ namespace Projet.DAL
             _context = context;
         }
 
-        public async Task<Task> GetByIdAsync(int id)
+        public async Task<ProjectTask> GetByIdAsync(int id)
         {
             return await _context.ProjectTask
-                .Include(t => t.AssignedTo)
+                .Include(t => t.AssignedTo) 
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
 
-        public async Task<IEnumerable<Task>> GetTasksByUserIdAsync(int userId)
+        public async Task<IEnumerable<ProjectTask>> GetTasksByUserIdAsync(int userId)
         {
             return await _context.ProjectTask
                 .Where(t => t.AssignedToId == userId)
@@ -46,18 +47,31 @@ namespace Projet.DAL
             var task = await _context.ProjectTask.FindAsync(taskId);
             if (task == null) return false;
 
-            task.Progress = Math.Clamp(progress, 0, 100);
+            task.Progress = Math.Clamp(progress, 0, 100); 
             if (progress == 100)
-                task.Status = TaskStatus.Completed;
+                task.Status = Projet.Entities.TaskStatus.Completed;
 
             await _context.SaveChangesAsync();
             return true;
         }
 
-        public async Task<IEnumerable<Task>> GetAllTasksAsync()
+        public async Task<IEnumerable<ProjectTask>> GetAllTasksAsync()
         {
             return await _context.ProjectTask
-                .Include(t => t.AssignedTo)
+                .Include(t => t.AssignedTo) 
+                .ToListAsync();
+        }
+
+        public async Task UpdateAsync(ProjectTask task)
+        {
+            _context.ProjectTask.Update(task);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<ProjectTask>> GetTasksForUserAsync(int userId)
+        {
+            return await _context.ProjectTask
+                .Where(t => t.AssignedToId == userId)
                 .ToListAsync();
         }
     }

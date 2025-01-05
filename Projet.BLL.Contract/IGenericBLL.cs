@@ -7,11 +7,11 @@ namespace Projet.BLL.Contract
         T Add(T entity);
         bool Delete(T entity);
 
-        T GetById(params object[] id);
+        Task<T?> GetById(params object[] id);
 
         IEnumerable<T> GetMany(Expression<Func<T, bool>>? predicate = null, params Expression<Func<T, object>>[] includeProperties);
 
-        void Submit();
+        Task Submit();
 
         T Update(T entity);
 

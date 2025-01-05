@@ -1,65 +1,77 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Projet.Context;
 using Projet.DAL.Contracts;
+using Projet.Entities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Projet.DAL
+namespace Projet.DAL.Repos
 {
     public class GenericRepository<T> : IRepository<T> where T : class
     {
         private readonly DataContext _context;
+        private readonly DbSet<T> _dbSet;
 
         public GenericRepository(DataContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _dbSet = _context.Set<T>();
         }
-        public T GetById(params object[] id)
-        {
-            return _context.Set<T>().Find(id);
 
-        }
-        public virtual IEnumerable<T> GetMany(Expression<Func<T, bool>>? predicate = null, params Expression<Func<T, object>>[] includeProperties)
+        public async Task<T?> GetById(object id)
         {
-            IQueryable<T> query = _context.Set<T>();
+            if (id == null)
+                throw new ArgumentNullException(nameof(id));
+
+            return await _dbSet.FindAsync(id);
+        }
+
+        public IEnumerable<T> GetMany(Expression<Func<T, bool>>? predicate = null, params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = _dbSet;
+
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+
             foreach (var includeProperty in includeProperties)
             {
                 query = query.Include(includeProperty);
             }
-            return predicate == null ? query : query.Where(predicate);
+
+            return query.ToList();
         }
-        public virtual void Add(T entity)
+
+        public void Add(T entity)
         {
-            //EntityEntry dbEntityEntry = _context.Entry<T>(entity);
-            _context.Set<T>().Add(entity);
-            _context.SaveChanges();
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Add(entity);
         }
 
-
-        public virtual void Update(T entity)
+        public async Task Update(T entity)
         {
-            EntityEntry dbEntityEntry = _context.Entry<T>(entity);
-            dbEntityEntry.State = EntityState.Modified;
-            _context.SaveChanges();
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Update(entity);
+            await _context.SaveChangesAsync();  // Sauvegarde asynchrone
         }
 
-        public virtual void Delete(T entity)
+        public void Delete(T entity)
         {
-            EntityEntry dbEntityEntry = _context.Entry<T>(entity);
-            dbEntityEntry.State = EntityState.Deleted;
-            _context.SaveChanges();
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Remove(entity);
         }
-        public void Submit()
+
+        public async Task SaveAsync()
         {
-            _context.SaveChanges(true);
+            await _context.SaveChangesAsync();  // Sauvegarde asynchrone
         }
-
-
-
     }
 }

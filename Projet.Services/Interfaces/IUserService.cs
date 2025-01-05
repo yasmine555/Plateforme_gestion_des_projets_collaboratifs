@@ -11,7 +11,7 @@ namespace Projet.Services.Interfaces
     {
         IEnumerable<User> GetUsers();
         User AddUser(User user);
-        bool DeleteUser(int id);
+        Task<bool> DeleteUser(int id);
         User UpdateUser(User user);
     }
 }

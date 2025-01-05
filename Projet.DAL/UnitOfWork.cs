@@ -39,10 +39,15 @@ namespace Projet.DAL
         {
             _context.SaveChanges();  // Enregistrez les modifications dans la base de données
         }
+        public async Task CommitAsync()
+        {
+            // Logique pour effectuer un commit asynchrone
+            await Task.CompletedTask; // Remplacez par la logique de commit asynchrone réelle
+        }
 
         public Task SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            return _context.SaveChangesAsync();
         }
     }
 }

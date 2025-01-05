@@ -45,11 +45,11 @@ namespace API.Controllers
         }
 
         [HttpDelete("DeleteUser/{id}")]
-        public IActionResult DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(int id)
         {
             try
             {
-                var isDeleted = _service.DeleteUser(id);
+                var isDeleted = await _service.DeleteUser(id);  // Utilisation de 'await' pour appeler la méthode asynchrone
                 if (isDeleted)
                 {
                     return Ok(new { Message = "User deleted successfully." });
@@ -61,6 +61,7 @@ namespace API.Controllers
                 return BadRequest(new { Error = ex.Message });
             }
         }
+
 
         [HttpPut("UpdateUser")]
         public IActionResult UpdateUser([FromBody] User user)

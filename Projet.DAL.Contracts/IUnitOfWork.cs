@@ -10,7 +10,7 @@ namespace Projet.DAL.Contracts
     {
         IRepository<T> GetRepository<T>() where T : class;
         void Commit();
-
+        Task CommitAsync();
         IProjectRepository Projects { get; }
         Task SaveChangesAsync();
     }

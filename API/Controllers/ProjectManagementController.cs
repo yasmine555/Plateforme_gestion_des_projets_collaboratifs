@@ -1,4 +1,10 @@
-﻿[ApiController]
+﻿using Microsoft.AspNetCore.Mvc;
+using Projet.Services;
+using Projet.Services.Interfaces;
+
+
+
+[ApiController]
 [Route("api/[controller]")]
 public class ProjectManagementController : ControllerBase
 {
@@ -19,20 +25,22 @@ public class ProjectManagementController : ControllerBase
         // Par exemple, à partir des claims d'identité
         return int.Parse(_httpContextAccessor.HttpContext.User.FindFirst("userId").Value);
     }
-
+    // API/Controllers/ProjectManagementController.cs
     [HttpPost("assign-task")]
     public async Task<IActionResult> AssignTask(int taskId, int userId)
     {
         try
         {
             var result = await _projectService.AssignTaskToMember(taskId, userId, GetCurrentUserId());
-            return result ? Ok() : BadRequest();
+            return result ? Ok() : BadRequest(new { Message = "Task assignment failed." });
         }
         catch (UnauthorizedAccessException ex)
         {
-            return Unauthorized(ex.Message);
+            return Unauthorized(new { Error = ex.Message });
         }
     }
+
+    
 
     [HttpPut("update-progress")]
     public async Task<IActionResult> UpdateProgress(int taskId, int progress)

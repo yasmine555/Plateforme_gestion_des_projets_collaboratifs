@@ -1,116 +1,89 @@
-﻿using Projet.DAL.Contracts;
-using Projet.DAL.Repos;
+﻿using Projet.Services.Interfaces;
 using Projet.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using Projet.DAL.Contracts;
 
 namespace Projet.Services
 {
     public class ProjectManagementService : IProjectManagementService
     {
         private readonly ITaskRepository _taskRepository;
-        private readonly IBadgeRepository _badgeRepository;
-        private readonly IUserRepository _userRepository;
+        private readonly IRepository<User> _userRepository; // Spécification du type générique
 
-        public ProjectManagementService(
-            ITaskRepository taskRepository,
-            IBadgeRepository badgeRepository,
-            IUserRepository userRepository)
+        public ProjectManagementService(ITaskRepository taskRepository, IRepository<User> userRepository)
         {
             _taskRepository = taskRepository;
-            _badgeRepository = badgeRepository;
             _userRepository = userRepository;
         }
 
-        private async Task<bool> IsProjectManager(int userId)
-        {
-            var user = await _userRepository.GetByIdAsync(userId);
-            return user?.Role == UserRole.ChefDeProjet;
-        }
-
+        // Méthode pour assigner une tâche à un membre
         public async Task<bool> AssignTaskToMember(int taskId, int userId, int currentUserId)
         {
-            if (!await IsProjectManager(currentUserId))
-                throw new UnauthorizedAccessException("Seul un chef de projet peut assigner des tâches.");
+            var user = await _userRepository.GetById(userId);
+            if (user == null || user.Id != currentUserId)
+            {
+                return false; // Unauthorized
+            }
 
-            var member = await _userRepository.GetByIdAsync(userId);
-            if (member?.Role != UserRole.MembreEquipe)
-                throw new InvalidOperationException("Les tâches ne peuvent être assignées qu'aux membres de l'équipe.");
+            var task = await _taskRepository.GetByIdAsync(taskId);
+            if (task == null)
+            {
+                return false; // Task not found
+            }
 
-            return await _taskRepository.AssignTaskAsync(taskId, userId);
+            task.AssignedToId = userId;
+            await _taskRepository.UpdateAsync(task);
+            return true;
         }
 
+        // Méthode pour mettre à jour la progression d'une tâche
         public async Task<bool> UpdateTaskProgress(int taskId, int progress, int currentUserId)
         {
             var task = await _taskRepository.GetByIdAsync(taskId);
-            if (task == null) return false;
-
-            var isProjectManager = await IsProjectManager(currentUserId);
-            if (!isProjectManager && task.AssignedToId != currentUserId)
-                throw new UnauthorizedAccessException("Vous n'avez pas les droits pour modifier cette tâche.");
-
-            var result = await _taskRepository.UpdateProgressAsync(taskId, progress);
-
-            // Vérification pour l'attribution automatique de badges
-            if (result && progress == 100)
+            if (task == null)
             {
-                var userTasks = await _taskRepository.GetTasksByUserIdAsync(task.AssignedToId);
-                var completedTasks = userTasks.Count(t => t.Status == StatusTask.Completed);
-
-                // Attribution de badges en fonction du nombre de tâches complétées
-                if (completedTasks == 5)
-                    await _badgeRepository.AwardBadgeAsync(task.AssignedToId, "Bronze - 5 tâches complétées");
-                else if (completedTasks == 10)
-                    await _badgeRepository.AwardBadgeAsync(task.AssignedToId, "Argent - 10 tâches complétées");
-                else if (completedTasks == 20)
-                    await _badgeRepository.AwardBadgeAsync(task.AssignedToId, "Or - 20 tâches complétées");
+                return false; // Task not found
             }
 
-            return result;
+            task.Progress = progress;
+            await _taskRepository.UpdateAsync(task);
+            return true;
         }
 
+        // Méthode pour attribuer un badge à un utilisateur
         public async Task<bool> AwardBadge(int userId, string badgeName, int currentUserId)
         {
-            if (!await IsProjectManager(currentUserId))
-                throw new UnauthorizedAccessException("Seul un chef de projet peut attribuer des badges.");
-
-            var member = await _userRepository.GetByIdAsync(userId);
-            if (member?.Role != UserRole.MembreEquipe)
-                throw new InvalidOperationException("Les badges ne peuvent être attribués qu'aux membres de l'équipe.");
-
-            return await _badgeRepository.AwardBadgeAsync(userId, badgeName);
-        }
-
-        public async Task<List<TaskProgressReport>> GetTeamProgress(int currentUserId)
-        {
-            if (!await IsProjectManager(currentUserId))
-                throw new UnauthorizedAccessException("Seul un chef de projet peut voir le progrès global de l'équipe.");
-
-            var tasks = await _taskRepository.GetAllTasksAsync();
-            var teamMembers = (await _userRepository.GetAllAsync())
-                .Where(u => u.Role == UserRole.MembreEquipe);
-
-            var reports = new List<TaskProgressReport>();
-
-            foreach (var member in teamMembers)
+            var user = await _userRepository.GetById(userId);
+            if (user == null || user.Id != currentUserId)
             {
-                var memberTasks = tasks.Where(t => t.AssignedToId == member.Id).ToList();
-                var badges = await _badgeRepository.GetBadgesByUserIdAsync(member.Id);
-
-                reports.Add(new TaskProgressReport
-                {
-                    MemberName = member.Name,
-                    CompletedTasks = memberTasks.Count(t => t.Status == TaskStatus.Completed),
-                    TotalTasks = memberTasks.Count,
-                    AverageProgress = memberTasks.Any() ? memberTasks.Average(t => t.Progress) : 0,
-                    TotalBadges = badges.Count()
-                });
+                return false; // Unauthorized
             }
 
-            return reports;
+            user.Badges.Add(badgeName);
+            await _userRepository.Update(user); // Mise à jour asynchrone
+            return true;
+        }
+
+
+        // Méthode pour récupérer les progrès de l'équipe
+        public async Task<List<TaskProgressReport>> GetTeamProgress(int currentUserId)
+        {
+            var tasks = await _taskRepository.GetTasksForUserAsync(currentUserId);
+            var progressReports = new List<TaskProgressReport>();
+
+            foreach (var task in tasks)
+            {
+                var report = new TaskProgressReport
+                {
+                    TaskId = task.Id,
+                    TaskName = task.Title,
+                    Progress = task.Progress
+                };
+                progressReports.Add(report);
+            }
+
+            return progressReports;
         }
     }
 }

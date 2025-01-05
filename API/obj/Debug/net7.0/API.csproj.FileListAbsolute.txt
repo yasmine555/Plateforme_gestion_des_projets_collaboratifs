@@ -94,7 +94,6 @@ C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConf
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.AssemblyInfo.cs
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\appsettings.Development.json
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\appsettings.json

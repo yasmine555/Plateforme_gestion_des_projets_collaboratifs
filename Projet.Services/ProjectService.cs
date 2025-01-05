@@ -7,6 +7,12 @@ namespace Projet.Services
     public class ProjectService : IProjectService
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IProjectRepository _projectRepository;
+
+        public ProjectService(IProjectRepository projectRepository)
+        {
+            _projectRepository = projectRepository;
+        }
 
         public ProjectService(IUnitOfWork unitOfWork)
         {
@@ -25,8 +31,11 @@ namespace Projet.Services
 
         public async Task CreateProjectAsync(Project project)
         {
-            await _unitOfWork.Projects.AddAsync(project);
-            await _unitOfWork.SaveChangesAsync();
+            if (project == null)
+                throw new ArgumentNullException(nameof(project));
+
+            // Ajoutez la logique pour créer un projet
+            await _projectRepository.AddProjectAsync(project);
         }
 
         public async Task UpdateProjectAsync(Project project)
