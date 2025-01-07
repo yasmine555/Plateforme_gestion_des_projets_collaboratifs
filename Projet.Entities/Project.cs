@@ -1,33 +1,39 @@
 namespace Projet.Entities
 {
-
     public class Project
     {
         public int Id { get; set; }
         public required string Name { get; set; }
         public required string Description { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
         public required string Status { get; set; }
 
         // Pour les objectifs et livrables
-        public List<ProjectObjective> Objectives { get; set; } = new List<ProjectObjective>();
-        public List<Deliverable> Deliverables { get; set; } = new List<Deliverable>();
+        public ICollection<ProjectObjective> Objectives { get; set; }
+        public ICollection<Deliverable> Deliverables { get; set; }
 
         // Constructeur sans paramètre pour EF
-        public Project() { }
+        public Project()
+        {
+            Objectives = new List<ProjectObjective>();
+            Deliverables = new List<Deliverable>();
+        }
 
-        public Project(string name, string description, string status, List<ProjectObjective> objectives, List<Deliverable> deliverables)
+        // Constructeur avec paramètres
+        public Project(string name, string description, string status, List<ProjectObjective> objectives = null, List<Deliverable> deliverables = null)
         {
             Name = name;
             Description = description;
             Status = status;
-            Objectives = objectives;
-            Deliverables = deliverables;
+            Objectives = objectives ?? new List<ProjectObjective>();
+            Deliverables = deliverables ?? new List<Deliverable>();
+        }
+
+        // Méthode pour valider la cohérence des dates
+        public bool AreDatesValid()
+        {
+            return !StartDate.HasValue || !EndDate.HasValue || StartDate <= EndDate;
         }
     }
-
-    
-
-   
 }

@@ -13,6 +13,6 @@ namespace Projet.Entities
         public string Description { get; set; } = string.Empty;
         public DateTime AwardedDate { get; set; }
         public int AwardedToId { get; set; }
-        public virtual User AwardedTo { get; set; }
+        public  User AwardedTo { get; set; }
     }
 }

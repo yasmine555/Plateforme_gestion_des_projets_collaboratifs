@@ -89,12 +89,6 @@ D:\GitProject\ProjetDOTNEtBack26112024\API\obj\Debug\net7.0\refint\API.dll
 D:\GitProject\ProjetDOTNEtBack26112024\API\obj\Debug\net7.0\API.pdb
 D:\GitProject\ProjetDOTNEtBack26112024\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 D:\GitProject\ProjetDOTNEtBack26112024\API\obj\Debug\net7.0\ref\API.dll
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.AssemblyInfo.cs
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
-C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\appsettings.Development.json
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\appsettings.json
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\API.exe
@@ -165,6 +159,13 @@ C:\platforme_gestion_projets\API\bin\Debug\net7.0\Projet.Services.pdb
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\Projet.Context.pdb
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\Projet.DAL.Contracts.pdb
 C:\platforme_gestion_projets\API\bin\Debug\net7.0\Projet.ViewModel.pdb
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props

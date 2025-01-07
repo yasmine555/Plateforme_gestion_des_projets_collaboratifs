@@ -1,21 +1,29 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Project } from '../models/project.model';
+
+export interface Project {
+  id: number;
+  name: string;
+  description: string;
+  startDate?: Date;
+  endDate?: Date;
+  status: string;
+}
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProjectService {
-  private apiUrl = 'api/projects'; // L'URL de votre API
+  private apiUrl = 'http://localhost:5000/api/projects'; // Remplace par l'URL de ton API
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getProjects(): Observable<Project[]> {
     return this.http.get<Project[]>(this.apiUrl);
   }
 
-  getProject(id: number): Observable<Project> {
+  getProjectById(id: number): Observable<Project> {
     return this.http.get<Project>(`${this.apiUrl}/${id}`);
   }
 

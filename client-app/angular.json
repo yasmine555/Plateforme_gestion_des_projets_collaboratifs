@@ -26,10 +26,12 @@
                 "input": "public"
               }
             ],
-            "styles": [
+            "styles": ["src/styles.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/ngx-toastr/toastr.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/@fortawesome/fontawesome-free/js/all.min.js"],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -99,6 +101,6 @@
     }
   },
   "cli": {
-    "analytics": "579d47f5-7403-4078-ad84-40a1f9e91b4f"
+    "analytics": "8e4b46fe-54f4-47ec-8921-06cca9f97ff2"
   }
 }

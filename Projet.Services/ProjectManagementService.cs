@@ -60,10 +60,19 @@ namespace Projet.Services
                 return false; // Unauthorized
             }
 
-            user.Badges.Add(badgeName);
-            await _userRepository.Update(user); // Mise à jour asynchrone
+            // Créer un nouvel objet Badge et l'ajouter à la collection Badges de l'utilisateur
+            var badge = new Badge
+            {
+                Name = badgeName,
+                Description = "Description du badge", // Vous pouvez ajouter une description si nécessaire
+                AwardedDate = DateTime.Now // Ajoutez la date d'attribution
+            };
+
+            user.Badges.Add(badge); // Ajouter le badge à la collection de badges
+            await _userRepository.Update(user); // Mise à jour asynchrone de l'utilisateur avec le nouveau badge
             return true;
         }
+
 
 
         // Méthode pour récupérer les progrès de l'équipe
