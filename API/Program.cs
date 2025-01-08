@@ -49,6 +49,9 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 app.MapControllers();
 
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
+
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {

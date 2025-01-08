@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendrier - Gestion de Projet</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">Gestion de Projet</div>
+        <div class="nav-tabs">
+            <button class="nav-tab" onclick="window.location.href='projects.html'">Projets</button>
+            <button class="nav-tab" onclick="window.location.href='users.html'">Utilisateurs</button>
+            <button class="nav-tab" onclick="window.location.href='tasks.html'">Tâches</button>
+            <button class="nav-tab" onclick="window.location.href='dashboard.html'">Tableau de Bord</button>
+            <button class="nav-tab active">Calendrier</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="calendar-header">
+            <h1>Calendrier des Projets</h1>
+            <div class="calendar-controls">
+                <select id="calendarView">
+                    <option value="month">Vue Mensuelle</option>
+                    <option value="week">Vue Hebdomadaire</option>
+                    <option value="day">Vue Journalière</option>
+                </select>
+                <div class="nav-buttons">
+                    <button id="prevButton"><i class="fas fa-chevron-left"></i></button>
+                    <span id="currentDate">Janvier 2024</span>
+                    <button id="nextButton"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conteneur du calendrier -->
+        <div class="calendar-container">
+            <div class="calendar-grid" id="calendarGrid">
+                <!-- Le calendrier sera généré dynamiquement ici -->
+            </div>
+        </div>
+
+        <!-- Liste des événements du jour -->
+        <div class="events-list">
+            <h2>Événements du jour</h2>
+            <div id="dayEvents">
+                <!-- Les événements seront affichés ici -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calendar.js"></script>
+</body>
+</html>

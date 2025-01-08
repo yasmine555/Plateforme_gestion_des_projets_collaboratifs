@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord - Gestion de Projet</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">Gestion de Projet</div>
+        <div class="nav-tabs">
+            <button class="nav-tab" onclick="window.location.href='projects.html'">Projets</button>
+            <button class="nav-tab" onclick="window.location.href='users.html'">Utilisateurs</button>
+            <button class="nav-tab" onclick="window.location.href='tasks.html'">Tâches</button>
+            <button class="nav-tab active">Tableau de Bord</button>
+            <button class="nav-tab" onclick="window.location.href='calendar.html'">Calendrier</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Tableau de Bord</h1>
+
+        <!-- Cartes de statistiques -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Projets Actifs</h3>
+                <p class="stat-number">12</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-tasks"></i>
+                <h3>Tâches en Cours</h3>
+                <p class="stat-number">45</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <h3>Membres</h3>
+                <p class="stat-number">8</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-check-circle"></i>
+                <h3>Tâches Terminées</h3>
+                <p class="stat-number">156</p>
+            </div>
+        </div>
+
+        <!-- Graphiques -->
+        <div class="charts-container">
+            <div class="chart-wrapper">
+                <h2>Progression des Projets</h2>
+                <div id="projectProgressChart"></div>
+            </div>
+            <div class="chart-wrapper">
+                <h2>Répartition des Tâches</h2>
+                <div id="taskDistributionChart"></div>
+            </div>
+        </div>
+
+        <!-- Timeline des projets -->
+        <div class="timeline-section">
+            <h2>Timeline des Projets</h2>
+            <div id="projectTimeline"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

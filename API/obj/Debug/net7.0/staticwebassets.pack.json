@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\js\\api.js",
+      "PackagePath": "staticwebassets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\js\\badges.js",
+      "PackagePath": "staticwebassets\\js\\badges.js"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\js\\projects.js",
+      "PackagePath": "staticwebassets\\js\\projects.js"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\js\\tasks.js",
+      "PackagePath": "staticwebassets\\js\\tasks.js"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\tasks.html",
+      "PackagePath": "staticwebassets\\tasks.html"
+    },
+    {
+      "Id": "C:\\platforme_gestion_projets\\API\\wwwroot\\users.html",
+      "PackagePath": "staticwebassets\\users.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

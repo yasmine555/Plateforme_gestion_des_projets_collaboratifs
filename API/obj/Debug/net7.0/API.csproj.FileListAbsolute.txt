@@ -180,3 +180,4 @@ C:\platforme_gestion_projets\API\obj\Debug\net7.0\refint\API.dll
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.pdb
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\platforme_gestion_projets\API\obj\Debug\net7.0\ref\API.dll
+C:\platforme_gestion_projets\API\bin\Debug\net7.0\API.staticwebassets.runtime.json

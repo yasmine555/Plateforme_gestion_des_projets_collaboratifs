@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilisateurs - Gestion de Projet</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">Gestion de Projet</div>
+        <div class="nav-tabs">
+            <button class="nav-tab" onclick="window.location.href='projects.html'">Projets</button>
+            <button class="nav-tab active" onclick="window.location.href='users.html'">Utilisateurs</button>
+            <button class="nav-tab" onclick="window.location.href='tasks.html'">Tâches</button>
+            <button class="nav-tab" onclick="window.location.href='dashboard.html'">Tableau de bord</button>
+            <button class="nav-tab" onclick="window.location.href='calendar.html'">Calendrier</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="header">
+            <h1>Membres de l'équipe</h1>
+            <button class="btn btn-primary" onclick="showModal('addUserModal')">
+                <i class="fas fa-user-plus"></i> Nouveau Membre
+            </button>
+        </div>
+
+        <div class="card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Rôle</th>
+                        <th>Points</th>
+                        <th>Badges</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="usersTableBody">
+                    <!-- Rempli dynamiquement par JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <div id="addUserModal" class="modal">
+        <div class="modal-content">
+            <h2>Nouveau Membre</h2>
+            <form id="userForm">
+                <div class="form-group">
+                    <label for="userName">Nom</label>
+                    <input type="text" id="userName" name="userName" required>
+                </div>
+                <div class="form-group">

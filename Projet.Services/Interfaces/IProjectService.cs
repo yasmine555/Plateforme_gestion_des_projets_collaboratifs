@@ -11,5 +11,6 @@ namespace Projet.Services.Interfaces
         Task DeleteProjectAsync(int id);
         Task<Project> GetProjectByIdAsync(int id);
         Task<List<Project>> GetAllProjectsAsync();
+
     }
 }
