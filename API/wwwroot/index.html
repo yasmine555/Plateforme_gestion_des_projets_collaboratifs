@@ -1,21 +1,31 @@
 ﻿<!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plateforme de gestion de projets collaboratifs">
+    <meta name="author" content="Ton Nom">
     <title>Accueil - Gestion de Projet</title>
+
+    <!-- Ajouter l'icône de Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Feuilles de style -->
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/calendar.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
 </head>
+
 <body>
     <nav class="navbar">
         <div class="brand">Gestion de Projet</div>
         <div class="nav-tabs">
-            <button class="nav-tab" onclick="window.location.href='projects.html'">Projets</button>
-            <button class="nav-tab" onclick="window.location.href='users.html'">Utilisateurs</button>
-            <button class="nav-tab" onclick="window.location.href='tasks.html'">Tâches</button>
-            <button class="nav-tab" onclick="window.location.href='dashboard.html'">Tableau de bord</button>
-            <button class="nav-tab" onclick="window.location.href='calendar.html'">Calendrier</button>
+            <button class="nav-tab" onclick="window.location.href='projects.html'" aria-label="Voir les projets">Projets</button>
+            <button class="nav-tab" onclick="window.location.href='users.html'" aria-label="Voir les utilisateurs">Utilisateurs</button>
+            <button class="nav-tab" onclick="window.location.href='tasks.html'" aria-label="Voir les tâches">Tâches</button>
+            <button class="nav-tab" onclick="window.location.href='dashboard.html'" aria-label="Voir le tableau de bord">Tableau de bord</button>
+            <button class="nav-tab" onclick="window.location.href='calendar.html'" aria-label="Voir le calendrier">Calendrier</button>
         </div>
     </nav>
 
@@ -31,5 +41,11 @@
     <footer>
         <p>&copy; 2025 Gestion de Projet. Tous droits réservés.</p>
     </footer>
+
+    <!-- Scripts -->
+    <script src="js/Calendar.js"></script>
+    <script src="js/ProjectForm.js"></script>
+    <script src="js/TeamManagement.js"></script>
 </body>
+
 </html>
